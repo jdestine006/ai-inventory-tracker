@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: black;
+}
+
+#root {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  max-width: 800px;
+  width: 100%;
+  margin-top: 40px;
+  text-align: center;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+}
+
+form {
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+input {
+  padding: 6px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th {
+  border: 1px solid #ddd;
+  padding: 10px;
+  background-color: black;
+  color: white;
+}
+td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  color: black;
+  align-items: center;
+  background: grey;
+}
+
+.low-stock td {
+  background-color: grey;
+  color: #b00200;
+  font-weight: bold;
+}
